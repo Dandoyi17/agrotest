@@ -1,0 +1,335 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --white: #fff;
+    --lightgreen: #3ddb3d;
+    --bg-color: #065f0b;
+    --light-white: #999;
+    --box-shadow: 0 .5rem 1rem rgb(225, 215, 0);
+    --border: .1rem solid rgba(255, 255, 225, .1);
+    --gradient: linear-gradient(65deg, rgb(225, 215, 0), coral);
+    --gold: #FFD700;
+}
+
+body {
+    display: flex;
+}
+
+.header1 {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-color);
+    opacity: .9;
+    border-bottom: var(--border);
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+}
+
+.header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.header .flex .logo {
+    font-size: 2rem;
+    color: var(--gold);
+    align-content: center;
+}
+
+.header .flex .logo .pix {
+    width: 100px;
+    height: 50px;
+    align-content: center;
+}
+
+.header .flex .logo i {
+    margin-right: .5rem;
+    color: var(--white);
+    align-items: center;
+}
+
+.header .flex .btn {
+    margin-top: 0;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: white;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: var(--bg-color);
+}
+
+.sidebar:hover {
+    width: 240px;
+    transition: 0.5s;
+}
+
+.logod {
+    height: 80px;
+    padding: 16px;
+}
+
+.menud {
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menud li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menud li:hover,
+.active {
+    background: var(--white);
+}
+
+.menud a {
+    color: var(--gold);
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menud a span {
+    overflow: hidden;
+}
+
+.menud a i {
+    font-size: 1.2rem;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.main-content {
+    position: relative;
+    background: var(--bg-color);
+    width: 100%;
+    padding: 1rem;
+}
+
+.header-wrapper img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--light-white);
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+
+.header-title {
+    color: var(--gold);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-box {
+    background: var(--bg-color);
+    border-radius: 15px;
+    color: var(--gold);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 12px;
+}
+
+.search-box input {
+    background: transparent;
+    padding: 10px;
+}
+
+.search-box i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.search-box i:hover {
+    transform: scale(1.2);
+}
+
+
+/*card containers*/
+
+.card-container {
+    background: var(--light-white);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: var(--gold);
+}
+
+.main-title {
+    color: var(--gold);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.payment-card {
+    background: var(--bg-color);
+    border-radius: 10px;
+    padding: 1.2rem;
+    width: 240px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+}
+
+.payment-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 200px;
+}
+
+.amount-value {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.icon {
+    color: var(--bg-color);
+    padding: 1rem;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: var(--gold);
+}
+
+.card-detail {
+    font-size: 18px;
+    color: #FFD700;
+    letter-spacing: 2px;
+}
+
+.tabular-wrapper {
+    background: var(--light-white);
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.tabular-container {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: var(--bg-color);
+    color: var(--gold);
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+}
+
+tbody {
+    background: var(--light-white);
+}
+
+td {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background: var(--white);
+}
+
+tfoot {
+    background: var(--bg-color);
+    font-weight: bold;
+    color: var(--gold);
+}
+
+tfoot td {
+    padding: 15px;
+    color: var(--gold);
+}
+
+tfoot .total {
+    color: red;
+}
+
+tfoot .total2 {
+    color: white;
+}
+
+.tabular-container button {
+    color: var(--bg-color);
+    background: none;
+    cursor: pointer;
+}
