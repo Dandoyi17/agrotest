@@ -224,7 +224,7 @@ section {
     position: relative;
     overflow: hidden;
 }
-
+/*
 .home .flex .image::before {
     content: '';
     position: absolute;
@@ -266,7 +266,7 @@ section {
         transform: translateY(-100%);
     }
 }
-
+*/
 .home .flex .image img {
     width: 100%;
 }
