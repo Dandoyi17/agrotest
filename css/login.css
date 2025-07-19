@@ -1,0 +1,94 @@
+/* login.css and register.css */
+
+body {
+    background: #f6fafd;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #040530;
+    margin-top: 40px;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+form {
+    max-width: 370px;
+    margin: 30px auto 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(25, 118, 210, 0.10);
+    padding: 32px 32px 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: 500;
+    color: #040546;
+    margin-bottom: 4px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #b3c6e0;
+    border-radius: 5px;
+    background: #f9fafb;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background: #040530;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #040530;
+}
+
+p {
+    text-align: center;
+    margin-top: 18px;
+    color: #040546;
+    font-size: 1em;
+}
+
+a {
+    color: #040530;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #040530;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 16px 4vw 18px 4vw;
+        max-width: 98vw;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+}

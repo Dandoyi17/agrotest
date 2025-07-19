@@ -1,0 +1,213 @@
+body {
+    background: #f6fafd;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.update-container {
+    max-width: 480px;
+    margin: 40px auto 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(25, 118, 210, 0.10);
+    padding: 32px 32px 24px 32px;
+}
+
+.update-header {
+    text-align: center;
+    color: #040530;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+
+.profile-avatar {
+    display: block;
+    margin: 0 auto 18px auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #040530;
+    background: #e3f2fd;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+
+.update-form label {
+    display: block;
+    margin: 14px 0 4px 0;
+    font-weight: 500;
+    color: #040546;
+}
+
+.update-form input[type="text"],
+.update-form input[type="email"],
+.update-form input[type="password"],
+.update-form input[type="file"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b3c6e0;
+    border-radius: 5px;
+    background: #f9fafb;
+    font-size: 1em;
+}
+
+.update-form button {
+    background: #040530;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.update-form button:hover {
+    background: #040530;
+}
+
+.update-form .btn-back {
+    background: #040546;
+    margin-left: 8px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.message {
+    text-align: center;
+    color: #388e3c;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.error {
+    text-align: center;
+    color: #c0392b;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    .update-container {
+        padding: 12px 4px 10px 4px;
+        width: 98vw;
+    }
+    .update-header {
+        font-size: 1.2em;
+    }
+}
+
+body {
+    background: #f6fafd;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.update-container {
+    max-width: 480px;
+    margin: 40px auto 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(25, 118, 210, 0.10);
+    padding: 32px 32px 24px 32px;
+}
+
+.update-header {
+    text-align: center;
+    color: #040530;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+
+.profile-avatar {
+    display: block;
+    margin: 0 auto 18px auto;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #040530;
+    background: #e3f2fd;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+}
+
+.update-form label {
+    display: block;
+    margin: 14px 0 4px 0;
+    font-weight: 500;
+    color: #040546;
+}
+
+.update-form input[type="text"],
+.update-form input[type="email"],
+.update-form input[type="password"],
+.update-form input[type="file"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b3c6e0;
+    border-radius: 5px;
+    background: #f9fafb;
+    font-size: 1em;
+}
+
+.update-form button {
+    background: #040530;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.update-form button:hover {
+    background: #040530;
+}
+
+.btn-back {
+    background: #040546;
+    margin-left: 8px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.message {
+    text-align: center;
+    color: #388e3c;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.error {
+    text-align: center;
+    color: #c0392b;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    .update-container {
+        padding: 12px 4px 10px 4px;
+        width: 98vw;
+    }
+    .update-header {
+        font-size: 1.2em;
+    }
+}

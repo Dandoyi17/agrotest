@@ -1,0 +1,114 @@
+    body {
+        background: #f6fafd;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h2,
+    h3 {
+        color: #040530;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 18px;
+        font-weight: 700;
+    }
+    
+    form {
+        max-width: 500px;
+        margin: 30px auto 20px auto;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 12px rgba(25, 118, 210, 0.07);
+        padding: 28px 28px 18px 28px;
+    }
+    
+    form label {
+        display: block;
+        margin: 12px 0 4px 0;
+        font-weight: 500;
+        color: #040546;
+    }
+    
+    form input[type="text"] {
+        width: 100%;
+        padding: 8px 10px;
+        margin-bottom: 10px;
+        border: 1px solid #b3c6e0;
+        border-radius: 5px;
+        background: #f9fafb;
+        font-size: 1em;
+    }
+    
+    form button,
+    .btn {
+        background: #040530;
+        color: #fff;
+        border: none;
+        padding: 10px 22px;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background 0.2s;
+    }
+    
+    form button:hover,
+    .btn:hover {
+        background: #040530;
+    }
+    
+    .table {
+        width: 95%;
+        margin: 0 auto 30px auto;
+        border-collapse: collapse;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 12px rgba(25, 118, 210, 0.06);
+        overflow: hidden;
+    }
+    
+    .table th,
+    .table td {
+        padding: 13px 10px;
+        text-align: left;
+        border-bottom: 1px solid #e3e7f1;
+    }
+    
+    .table th {
+        background: #e3f2fd;
+        color: #040530;
+        font-weight: 700;
+        font-size: 1.05em;
+    }
+    
+    .table tr:last-child td {
+        border-bottom: none;
+    }
+    
+    .table tr:hover {
+        background: #f1f8ff;
+    }
+    
+    .table a.btn {
+        margin-right: 6px;
+        padding: 6px 14px;
+        font-size: 0.97em;
+    }
+    
+    @media (max-width: 700px) {
+        form,
+        .table {
+            width: 99%;
+            padding: 10px 4px;
+        }
+        h2,
+        h3 {
+            font-size: 1.2em;
+        }
+        .table th,
+        .table td {
+            font-size: 0.97em;
+            padding: 8px 4px;
+        }
+    }
